@@ -20,7 +20,7 @@ function createMap(){
 //function to retrieve map data and place it on the map
 function getData(map){
 	//baselayer
-	var basemap = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+	var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		minZoom: 0,
 		maxZoom: 21,
 		ext: 'png'
